@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DigiBoxx Test">
+  <test name="DigiBoxx login feature">
+      
+ 	  <parameter name="url" value="https://apptest.digiboxx.com/login"/>
+      <parameter name="DigiSpace" value="mozark14"/>
+      <parameter name="Email" value="mozark14251093@gmail.com"/>
+      <parameter name="Password" value="Gaurav@123"/>
+      
+<classes>
+      <class name="com.digiboxx.page.LoginPage"/>
+   	  <class name="com.digiboxx.page.HomePage"/>
+	  <class name="com.digiboxx.base.TestBase"/>
+      </classes>
+ 
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
